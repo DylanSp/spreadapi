@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "terser -c -o spread-api.min.js -- spread-api.js"
+    "build": "terser -c -o spread-api.min.js -- spread-api.js",
+    "test": "node --test tests/"
   },
   "dependencies": {
     "terser": "^5.3.8"
